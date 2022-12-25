@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CustomerUpdate</OriginalElement>
+  <nodes>
+    <node x="-75.08690398745955" y="610.8838874795076">Menu</node>
+    <node x="678.0053743395897" y="-14.189263394421715">Done</node>
+    <node x="161.00934446281877" y="866.6841780563898">SendMoneyPrint</node>
+    <node x="1012.5810865349026" y="939.0285005526067">Entrance</node>
+    <node x="587.562809285682" y="790.97716646127">Deposit</node>
+    <node x="1108.2157223845354" y="574.4828504099953">Investment</node>
+    <node x="782.397253210278" y="797.441323140986">DBcon</node>
+    <node x="117.1381086352205" y="574.5658521488681">CustomerUpdate</node>
+    <node x="409.52038119139934" y="935.5777378639027">PrintInfo</node>
+    <node x="135.34972828889983" y="1203.9204345910098">DataExtraction</node>
+    <node x="966.2010523666886" y="783.7891410948146">GetCredit</node>
+    <node x="716.3995749227178" y="1138.7304947287605">InvestmentPrint</node>
+    <node x="351.2371029362904" y="706.3936877906438">Wealth</node>
+    <node x="383.8765937323253" y="1051.5311542511174">WithdrawalPrint</node>
+    <node x="745.0157356932477" y="123.03082004761447">CustomerInfos</node>
+    <node x="1162.502561922238" y="767.2879983250408">Bank</node>
+    <node x="596.541635979326" y="979.1040722171447">Withdrawal</node>
+    <node x="1312.5330878830434" y="570.2755147814709">History</node>
+    <node x="812.2245546856288" y="979.8054846600501">PayDebt</node>
+    <node x="1452.0461587204247" y="708.6670143138704">SendMoney</node>
+    <node x="-78.66688316108971" y="784.2390665041036">Rates</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CustomerUpdate" target="DBcon" relationship="GENERALIZATION">
+      <point x="86.99989136477947" y="1.4785113182824716E-4" />
+      <point x="651.0" y="647.066" />
+      <point x="651.0" y="749.0" />
+      <point x="764.897" y="749.0" />
+      <point x="764.897" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="Withdrawal" target="DBcon" relationship="GENERALIZATION">
+      <point x="3.6402067405560956E-4" y="-49.500072217144634" />
+      <point x="661.042" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="DBcon" target="CustomerInfos" relationship="GENERALIZATION">
+      <point x="-18.38151751703026" y="-60.5" />
+      <point x="0.0" y="303.5" />
+    </edge>
+    <edge source="Investment" target="DBcon" relationship="GENERALIZATION">
+      <point x="2.7761546448346053E-4" y="60.50014959000475" />
+      <point x="1180.216" y="722.531" />
+      <point x="1385.033" y="722.531" />
+      <point x="1385.033" y="749.0" />
+      <point x="764.897" y="749.0" />
+      <point x="764.897" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="SendMoney" target="DBcon" relationship="GENERALIZATION">
+      <point x="-73.50015872042468" y="-35.63601431387036" />
+      <point x="1385.033" y="722.531" />
+      <point x="1385.033" y="749.0" />
+      <point x="764.897" y="749.0" />
+      <point x="764.897" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="Menu" target="DBcon" relationship="GENERALIZATION">
+      <point x="-9.601254045321639E-5" y="-38.49988747950766" />
+      <point x="-17.087000000000003" y="557.066" />
+      <point x="651.0" y="557.066" />
+      <point x="651.0" y="749.0" />
+      <point x="764.897" y="749.0" />
+      <point x="764.897" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="WithdrawalPrint" target="PrintInfo" relationship="REALIZATION">
+      <point x="76.00040626767463" y="-1.542511174648098E-4" />
+      <point x="562.0" y="1090.031" />
+      <point x="562.0" y="962.578" />
+      <point x="56.999618808600644" y="2.6213609726255527E-4" />
+    </edge>
+    <edge source="History" target="DBcon" relationship="GENERALIZATION">
+      <point x="-8.788304353402054E-5" y="38.50048521852915" />
+      <point x="1385.033" y="749.0" />
+      <point x="764.897" y="749.0" />
+      <point x="764.897" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="Wealth" target="DBcon" relationship="GENERALIZATION">
+      <point x="87.99989706370957" y="8.894312209356258" />
+      <point x="651.0" y="764.788" />
+      <point x="651.0" y="749.0" />
+      <point x="764.897" y="749.0" />
+      <point x="764.897" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="DataExtraction" target="Rates" relationship="GENERALIZATION">
+      <point x="-72.0" y="-34.68136808690633" />
+      <point x="70.5" y="208.0" />
+    </edge>
+    <edge source="Deposit" target="DBcon" relationship="GENERALIZATION">
+      <point x="1.9071431802331062E-4" y="-49.500166461270055" />
+      <point x="650.563" y="764.788" />
+      <point x="651.0" y="764.788" />
+      <point x="651.0" y="749.0" />
+      <point x="764.897" y="749.0" />
+      <point x="764.897" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="PayDebt" target="DBcon" relationship="GENERALIZATION">
+      <point x="4.4531437117711903E-4" y="-38.50048466005012" />
+      <point x="878.225" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="GetCredit" target="DBcon" relationship="GENERALIZATION">
+      <point x="-5.236668857833138E-5" y="-38.50014109481458" />
+      <point x="1034.201" y="749.0" />
+      <point x="764.897" y="749.0" />
+      <point x="764.897" y="949.0" />
+      <point x="843.897" y="949.0" />
+      <point x="-2.5321027794689144E-4" y="60.499676859014016" />
+    </edge>
+    <edge source="SendMoneyPrint" target="PrintInfo" relationship="REALIZATION">
+      <point x="78.49965553718124" y="-1.7805638981371885E-4" />
+      <point x="562.0" y="905.184" />
+      <point x="562.0" y="962.578" />
+      <point x="56.999618808600644" y="2.6213609726255527E-4" />
+    </edge>
+    <edge source="CustomerInfos" target="Done" relationship="GENERALIZATION">
+      <point x="-73.0" y="-303.5" />
+      <point x="21.010361353658027" y="38.5" />
+    </edge>
+    <edge source="InvestmentPrint" target="PrintInfo" relationship="REALIZATION">
+      <point x="-75.99957492271778" y="-4.947287604863959E-4" />
+      <point x="562.0" y="1177.23" />
+      <point x="562.0" y="962.578" />
+      <point x="56.999618808600644" y="2.6213609726255527E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5083586626139818" showDependencies="false" x="770.5" y="643.0" />
+  <SelectedNodes>
+    <node>Done</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
